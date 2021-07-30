@@ -30,6 +30,7 @@ import { VideosComponent } from './videos/videos.component';
 import { ListnewsComponent } from './listnews/listnews.component';
 import { NewsComponent } from './news/news.component';
 import { IntroComponent } from './intro/intro.component';
+import { FeaturedstoryComponent } from './featuredstory/featuredstory.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { IntroComponent } from './intro/intro.component';
     ListnewsComponent,
     NewsComponent,
     IntroComponent,
+    FeaturedstoryComponent,
   ],
   imports: [
     BrowserModule,

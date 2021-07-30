@@ -1,0 +1,34 @@
+.featured-story-container{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.featured-story-img img{
+    width:100%;
+}
+.featured-story-info{
+    display:flex;
+    padding: 2rem 2rem 1.5rem 2rem;
+    flex-direction: column;
+    height: 100%;
+}
+
+.featured-story-info h4{
+    padding:0;
+    margin:0;
+    font-size: 0.7rem;
+    font-weight:500;
+    text-transform: uppercase;
+    letter-spacing:0.05rem;
+    color: #666c72;
+}
+.featured-story-info p {
+    flex:5;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.featured-story-info span {
+    font-size: .7rem;
+    color: #666c72;
+}
