@@ -7,13 +7,13 @@ html {
     box-sizing: inherit;
 }
 
-body { 
+body {
     background-color: whitesmoke;
-    margin: 0; 
-    padding: 0; 
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    margin: 0;
+    padding: 0;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .container {

@@ -13,7 +13,7 @@ export class NowComponent implements OnInit {
   iconImg: string | null = null;
   description: any = '';
   hoje: any = new Date();
-  
+
   constructor(
     private _weather: WeatherService,
     private _geoLocation: LocationService
@@ -28,7 +28,7 @@ export class NowComponent implements OnInit {
     } else {
       this._geoLocation.getCity().subscribe((data: any) => {
         this.getWeather(data.country, data.city);
-      });     
+      });
     }
   }
 
@@ -41,12 +41,12 @@ export class NowComponent implements OnInit {
       .subscribe((data: any) => {
         if(data) {
           this.weather = data['data'][0];
+          localStorage.setItem('userSavedCoords', JSON.stringify(this.weather));
           this.iconImg = `https://www.weatherbit.io/static/img/icons/${data['data'][0].weather.icon}.png`;
           this.description = data['data'][0].weather.description;
         } else {
           this.errorMessage = 'No information available. Try again later...';
         }
-                  
     });
   }
 }

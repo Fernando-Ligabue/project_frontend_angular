@@ -24,7 +24,6 @@ export class DailyComponent implements OnInit {
       this._weather.getDaily(savedLocation.name, savedLocation.country)
         .subscribe((data: any) => {
           this.weather = data['data'];
-          console.log("LOG DAILY COMP",data)
         });
     } else {
       this._geoLocation.getCity().subscribe((data: any) => {

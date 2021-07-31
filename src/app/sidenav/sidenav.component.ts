@@ -48,7 +48,7 @@ export class SidenavComponent implements OnInit {
           label: 'Severe Weather'
         },
         {
-          url: '/',
+          url: '/videos',
           label: 'Video'
         },
         {

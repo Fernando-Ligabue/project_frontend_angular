@@ -10,43 +10,43 @@ export class CategoriesComponent implements OnInit {
 
   categories: Category[] = [
     {
-      url: 'trending now',
+      url: '/videos',
       label: 'Trending Now',
     },
     {
-      url: 'field coverage',
+      url: '/videos',
       label: 'Field Coverage',
     },
     {
-      url: 'expert forecasts',
+      url: '/videos',
       label: 'Expert forecasts',
     },
     {
-      url: 'global',
+      url: '/videos',
       label: 'Global',
     },
     {
-      url: 'accuweather ready',
+      url: '/videos',
       label: 'Accuweather ready',
     },
     {
-      url: 'space',
+      url: '/videos',
       label: 'Space',
     },
     {
-      url: 'animals',
+      url: '/videos',
       label: 'Animals',
     },
     {
-      url: 'health',
+      url: '/videos',
       label: 'Health',
     },
     {
-      url: 'science',
+      url: '/videos',
       label: 'Science',
     },
     {
-      url: 'accusports',
+      url: '/videos',
       label: 'Accusports',
     },
   ];
